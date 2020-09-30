@@ -1,0 +1,391 @@
+body {
+    background: #3A4363;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #080326;
+}
+
+header h2 {
+    margin-left: 20%;
+}
+
+button {
+    background: #4CB1D0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: 50px;
+    width: 170px;
+    height: 36px;
+    font-size: 22px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    min-height: 100%;
+}
+
+.main {
+    background: #080326;
+    min-height: 700px;
+    width: 40%;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+.main h1 {
+    font-size: 18px;
+    margin-left: 7%;
+}
+
+hr {
+    width: 86%;
+}
+
+.sondage {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 18px;
+}
+
+.sondage a {
+    width: 100%;
+}
+
+.Categorie {
+    height: 17px;
+    width: auto;
+    margin: 5px 5px 10px 0px;
+    padding: 5px 10px;
+    background: #4CB1D0;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.Categorie a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.sondage a:hover {
+    color: #4CB1D0;
+}
+
+.Categorie a:hover {
+    color: #080326;
+}
+
+.CategoriePrecise a:hover {
+    color: #080326;
+}
+
+.CategoriePrecise {
+    height: 17px;
+    width: auto;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    background: #B64CD0;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.CategoriePrecise a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.Autres {
+    display: flex;
+    margin-top: 80px;
+    width: 45%;
+    justify-content: space-between;
+    font-size: 22px;
+    margin-left: 15%;
+}
+
+.Classement {
+    width: 200px;
+    height: 110px;
+    border-radius: 25px;
+    background: #54AE52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.Faq {
+    width: 200px;
+    height: 110px;
+    border-radius: 25px;
+    background: #EB8044;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+}
+
+.Sondages {
+    width: 200px;
+    height: 110px;
+    border-radius: 25px;
+    background: #3FC0A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+
+/* Page Classement */
+
+.placeClassement {
+    display: flex;
+    margin-left: 7%;
+}
+
+.placeClassement h4 {
+    margin: 0;
+    color: black;
+}
+
+.placeClassement h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.top1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #FFF500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.top2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #A8A5A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.top3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #752F20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.top4plus {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #756220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+/* Footer */
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    background: #080326;
+    margin-top: 50px;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+
+/* Page d'un sondage précis */
+
+.validationSondage {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+#submit {
+    margin-left: 7%;
+    background: #4CB1D0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: auto;
+    height: 26px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.choice {
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+/* Connexion et inscription */
+
+.mainForm {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 25px;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.mainForm h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.mainForm p {
+    width: 100%;
+    text-align: center;
+}
+
+.mainForm a {
+    color: #4CB1D0;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+    .Autres {
+        margin-left: 10px;
+    }
+    .main {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .Autres {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .main {
+        width: 434px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+    .mainForm {
+        flex-direction: row;
+    }
+    form {
+        width: 80%;
+    }
+    header h2 {
+        margin-left: 5px;
+    }
+    header button {
+        margin-right: 10px;
+    }
+    footer {
+        position: relative;
+    }
+    .footerCo {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .main {
+        width: 90%;
+    }
+    .Sondages {
+        height: 70px;
+        width: 40%;
+        font-size: 16px;
+    }
+    .Faq {
+        height: 70px;
+        width: 40%;
+        font-size: 16px;
+    }
+    .Classement {
+        height: 70px;
+        width: 40%;
+        font-size: 16px;
+    }
+}
